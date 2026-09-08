@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">DevPortfolio<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section">
+    <div class="hero-content">
+      <span class="badge">Frontend Developer</span>
+      <h1>Building functional, responsive web applications</h1>
+      <p>Focused on writing clean Vanilla JavaScript, responsive CSS layouts, and modern web interfaces.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="https://github.com/abhinavpandey26" target="_blank" class="btn secondary-btn">GitHub Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Todo App Card -->
+        <article class="project-card">
+          <div class="card-header">
+            <span class="folder-icon">📁</span>
+            <div class="card-links">
+              <a href="https://github.com/abhinavpandey26/TO-DO-APP" target="_blank" title="GitHub Repo">📂</a>
+              <a href="https://abhinavpandey26.github.io/TO-DO-APP/" target="_blank" title="Live Demo">🔗</a>
+            </div>
+          </div>
+          <h3>Todo Web Application</h3>
+          <p>Interactive task management tool supporting CRUD operations, status filtering, and browser LocalStorage state synchronization.</p>
+          <ul class="tag-list">
+            <li>JavaScript</li>
+            <li>LocalStorage</li>
+            <li>DOM API</li>
+          </ul>
+        </article>
+
+        <!-- Weather App Card -->
+        <article class="project-card">
+          <div class="card-header">
+            <span class="folder-icon">📁</span>
+            <div class="card-links">
+              <a href="https://github.com/abhinavpandey26/weather-app" target="_blank" title="GitHub Repo">📂</a>
+              <a href="https://abhinavpandey26.github.io/weather-app/" target="_blank" title="Live Demo">🔗</a>
+            </div>
+          </div>
+          <h3>Weather Forecast App</h3>
+          <p>Real-time weather application fetching dynamic meteorological data using Open-Meteo REST API, async/await, and browser Geolocation.</p>
+          <ul class="tag-list">
+            <li>Fetch API</li>
+            <li>Async/Await</li>
+            <li>Geolocation</li>
+          </ul>
+        </article>
+
+        <!-- User Auth Card -->
+        <article class="project-card">
+          <div class="card-header">
+            <span class="folder-icon">📁</span>
+            <div class="card-links">
+              <a href="https://github.com/abhinavpandey26/user-auth-profile" target="_blank" title="GitHub Repo">📂</a>
+              <a href="https://abhinavpandey26.github.io/user-auth-profile/" target="_blank" title="Live Demo">🔗</a>
+            </div>
+          </div>
+          <h3>Auth & User Dashboard</h3>
+          <p>Client-side authentication flow complete with registration validation, session state management, and avatar image uploading via FileReader API.</p>
+          <ul class="tag-list">
+            <li>Form Validation</li>
+            <li>FileReader API</li>
+            <li>State Management</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">JavaScript (ES6+)</div>
+        <div class="skill-item">HTML5 & CSS3</div>
+        <div class="skill-item">REST APIs & Fetch</div>
+        <div class="skill-item">Git & GitHub</div>
+        <div class="skill-item">DOM Manipulation</div>
+        <div class="skill-item">Responsive Design</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p>Interested in collaborating or reviewing more projects?</p>
+      <div class="contact-links">
+        <a href="https://github.com/abhinavpandey26" target="_blank" class="btn primary-btn">Follow on GitHub</a>
+      </div>
+      <p class="copyright">&copy; 2026 Abhinav Pandey. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
